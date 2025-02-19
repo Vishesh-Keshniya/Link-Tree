@@ -35,6 +35,12 @@ const Home = () => {
       </div>
 
       {/* Container-2 */}
+      <div className="phonecontent">
+        <h1>The best in the class product for you today!</h1>
+        <p>
+        This is a placeholder for your testimonials and what your client has to say, put them here and make sure its 100% true and meaningful.
+        </p>
+      </div>
       <div className="container-2-wrapper">
         <div className="container-2">
           {/* Left Content */}
