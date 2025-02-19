@@ -208,6 +208,73 @@ const Home = () => {
     </div>
       </div>
 
+      
+      <div className="container-5-wrapper-phone">
+  <div className="container-5-phone">
+    <div className="testimonial-list-phone">
+      <div className="testimonial-card-1-phone">
+        <h3>Amazing tool! Saved me months</h3>
+        <p>
+          This is a placeholder for your testimonials and what your client has to 
+          say. Put them here and make sure it's 100% true and meaningful.
+        </p>
+        <div className="author-phone">
+          <div className="avatar-phone"></div>
+          <div>
+            <strong>John Master</strong>
+            <p>Director, Spark.com</p>
+          </div>
+        </div>
+      </div>
+
+      <div className="testimonial-card-phone">
+        <h3>Amazing tool! Saved me months</h3>
+        <p>
+          This is a placeholder for your testimonials and what your client has to 
+          say. Put them here and make sure it's 100% true and meaningful.
+        </p>
+        <div className="author-phone">
+          <div className="avatar-phone"></div>
+          <div>
+            <strong>John Master</strong>
+            <p>Director, Spark.com</p>
+          </div>
+        </div>
+      </div>
+
+      <div className="testimonial-card-phone">
+        <h3>Amazing tool! Saved me months</h3>
+        <p>
+          This is a placeholder for your testimonials and what your client has to 
+          say. Put them here and make sure it's 100% true and meaningful.
+        </p>
+        <div className="author-phone">
+          <div className="avatar-phone"></div>
+          <div>
+            <strong>John Master</strong>
+            <p>Director, Spark.com</p>
+          </div>
+        </div>
+      </div>
+
+      <div className="testimonial-card-1-phone">
+        <h3>Amazing tool! Saved me months</h3>
+        <p>
+          This is a placeholder for your testimonials and what your client has to
+          say. Put them here and make sure it's 100% true and meaningful.
+        </p>
+        <div className="author-phone">
+          <div className="avatar-phone"></div>
+          <div>
+            <strong>John Master</strong>
+            <p>Director, Spark.com</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
       <div className="container-5-wrapper">
       <div className="container-6">
       <h2>All Link Apps and Integrations</h2>
