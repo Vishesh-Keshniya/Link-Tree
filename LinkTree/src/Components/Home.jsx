@@ -1,7 +1,11 @@
 import React from "react";
 import "./Home.css";
+import { useNavigate } from "react-router-dom";
+
 
 const Home = () => {
+
+  const navigate = useNavigate();
   return (
     <div className="cont">
       {/* Navbar */}
@@ -10,7 +14,7 @@ const Home = () => {
           <img src="sparklogo.png" alt="Spark Logo" /> <span className="nav-text"><span className="spark">SPARK</span> | Marketplace </span>
         </div>
         <ul className="navbar-links">
-          <li><button className="signupbtn">Sign up free </button></li>
+          <li><button className="signupbtn" onClick={() => navigate("/signup")}>Sign up free </button></li>
         </ul>
       </nav>
 
@@ -25,7 +29,7 @@ const Home = () => {
             Help your followers discover everything you’re sharing  <br />  all over the internet,
             in one simple place. They’ll thank  <br /> you for it!
           </p>
-          <button className="cta-button">Get your free Spark</button>
+          <button className="cta-button" onClick={() => navigate("/signup")}>Get your free Spark</button>
         </div>
 
         {/* Right Side Image */}
@@ -359,8 +363,8 @@ const Home = () => {
     <div className="footer-container">
       <div className="footer-header">
         <div className="button-group">
-          <button className="login-button">Log in</button>
-          <button className="signup-button">Sign up free</button>
+          <button className="login-button" onClick={() => navigate("/login")}>Log in</button>
+          <button className="signup-button" onClick={() => navigate("/signup")}>Sign up free</button>
         </div>
         <div className="footer-links">
           <div className="column">
