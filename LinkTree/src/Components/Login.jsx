@@ -30,15 +30,16 @@ const Login = () => {
                 placeholder="Password"
               />
               <button
-                type="button"
+                type="toggle-button"
                 className="toggle-password"
                 onClick={togglePasswordVisibility}
               >
-                {showPassword ? <img src="hide.png"></img> : <img src="hide.png"></img>}
+                {showPassword ? <img className="hide" src="hide.png"></img> : <img className="hide" src="hide.png"></img>}
               </button>
             </div>
 
             <button type="submit" className="login">Log in</button>
+            
           </form>
         </div>
 
@@ -47,7 +48,7 @@ const Login = () => {
             <a href="#" className="forget">Forgot password?</a>
           </p>
           <p className="bottom">
-            Don't have an account? <button className="sign" onClick={() => navigate("/signup")}>Sign up</button>
+            Don't have an account? <button className="sign-up" onClick={() => navigate("/signup")}>Sign up</button>
           </p>
         </div>
       </div>
